@@ -1,2 +1,2 @@
-# Html-CSS-study
-Html&amp;CSS 스터디 과제 repo🎶
+# HTML-CSS-study
+HTML&amp;CSS 스터디 과제 repo🎶
