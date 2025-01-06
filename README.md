@@ -1,2 +1,3 @@
-# Html-CSS-study
-Html&amp;CSS 스터디 과제 repo🎶
+# HTML-CSS-study
+
+📌HTML - 웹사이트 뼈대 만들기 과제
