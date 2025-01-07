@@ -1,2 +1,3 @@
 # HTML-CSS-study
-HTML &amp; CSS 스터디 과제 repo🎶
+
+📌CSS - 웹사이트 꾸미기 과제
