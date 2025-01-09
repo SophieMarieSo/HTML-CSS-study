@@ -1,2 +1,3 @@
 # HTML-CSS-study
-HTML &amp; CSS 스터디 과제 repo🎶
+
+📌`position`과 `flexbox`를 연습해보자 :)
