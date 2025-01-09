@@ -1,2 +1,3 @@
 # HTML-CSS-study
-HTML &amp; CSS 스터디 과제 repo🎶
+
+📌구글 웹사이트 만들기 과제
