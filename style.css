@@ -74,6 +74,21 @@ body {
       border: 1px solid #dadce0;
     }
   }
+
+  .language-area {
+    margin-top: 18px;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 0 3px;
+    color: #1a0dab;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+  }
 }
 
 .footer {
@@ -104,6 +119,7 @@ body {
       text-decoration: underline;
       color: #9aa0a6;
     }
+
     .right-area {
       float: right;
     }
