@@ -40,20 +40,15 @@ h1 {
 .practice-2 {
   width: 100%;
   height: 400px;
-
-  .first {
-    display: flex;
-    justify-content: flex-start;
-  }
+  display: flex;
+  flex-direction: column;
 
   .second {
-    display: flex;
-    justify-content: center;
+    align-self: center;
   }
 
   .last {
-    display: flex;
-    justify-content: flex-end;
+    align-self: flex-end;
   }
 }
 
@@ -100,9 +95,9 @@ h1 {
   height: 200px;
 
   .last {
-    position: absolute;
-    top: 40px;
-    left: 40px;
+    position: relative;
+    left: 50px;
+    top: -60px;
     border-color: crimson;
   }
 }
@@ -114,8 +109,8 @@ h1 {
 
   .parent {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 0;
+    right: 0;
     height: 200px;
     width: 600px;
     margin: 10px;
@@ -123,18 +118,21 @@ h1 {
     color: darkslategrey;
     font-weight: bold;
     border-radius: 12px;
-    padding: 20px;
+
+    .box {
+      margin: 0;
+    }
 
     div:first-child {
       position: absolute;
-      top: -10px;
-      right: -10px;
+      top: 0;
+      right: 0;
     }
 
     div:last-child {
       position: absolute;
-      bottom: -10px;
-      left: -10px;
+      bottom: 0;
+      left: 0;
     }
   }
 }
