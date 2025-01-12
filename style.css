@@ -85,4 +85,87 @@ main {
 footer {
   height: 530px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+
+  .footer-container {
+    width: 1170px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+    .menuicon-container {
+      display: flex;
+      justify-content: space-between;
+      height: 346px;
+      width: 100%;
+
+      .menu {
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+
+        .col {
+          display: flex;
+          flex-direction: column;
+          padding: 0 15px;
+
+          .title {
+            color: #919496;
+            font-weight: 900;
+            margin: 20px 0px;
+          }
+
+          .menu-item {
+            padding-bottom: 15px;
+            padding-top: 3px;
+            font-size: 16px;
+          }
+        }
+      }
+
+      .icon-container {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        .icon {
+          width: 54px;
+          height: 54px;
+          background-color: #222322;
+          border-radius: 50%;
+          margin-right: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .fab {
+            font-size: 24px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+
+    .usa {
+      color: #919496;
+      display: flex;
+      justify-content: flex-end;
+      font-size: 12px;
+    }
+
+    .rigths {
+      color: #919496;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 12px;
+
+      .rigth-item {
+        margin-right: 24px;
+        color: #919496;
+      }
+
+      .rigth-item:hover {
+        color: #1ed760;
+      }
+    }
+  }
 }
