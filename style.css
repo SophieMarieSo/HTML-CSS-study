@@ -8,3 +8,55 @@
   background-color: chocolate;
   border-color: chocolate;
 }
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.first-line {
+  color: white;
+  border-bottom: 1px solid #392d23;
+}
+
+.second-line {
+  font-size: 12px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: chocolate;
+  }
+
+  img {
+    margin-right: 6px;
+    margin-bottom: 3px;
+  }
+}
+
+.last-line {
+  display: none;
+
+  img {
+    margin-right: 6px;
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+
+  .second-line {
+    padding: 0 2rem;
+    border-bottom: 1px solid #392d23;
+  }
+
+  .last-line {
+    display: block;
+  }
+}
